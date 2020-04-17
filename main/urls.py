@@ -25,6 +25,9 @@ from .views import empty_level2, full_level2
 from .views import googleit_lvl3, googleit_mandymoore, googleit_onlyhope
 from .views import z2o_onlyhope_level4, z2o_congo_level4
 from .views import draw_the_line_level5, draw_the_line_800x600
+from .views import anagram_lvl6, anagram_thetitanicdisaster
+from .views import listen_to_the_sounds, listen_to_the_ekac
+from .views import raseac_chaibefourcoffee, raseac_reputation
 
 urlpatterns = [
     path(r'', index_page, name='home'),
@@ -47,6 +50,14 @@ urlpatterns = [
     path(r'draw/the/line/level5', draw_the_line_level5, name='level5'),
     path(r'draw/the/line/800x600', draw_the_line_800x600, name='level5a'),
 
+    path(r'anagram/lvl6', anagram_lvl6, name='level6'),
+    path(r'anagram/thetitanicdisaster', anagram_thetitanicdisaster, name='level6a'),
+    
+    path(r'listen/to/the/sounds', listen_to_the_sounds, name='level7'),
+    path(r'listen/to/the/ekac', listen_to_the_ekac, name='level7a'),
+
+    path(r'raseac/reputation', raseac_reputation, name='level7'),
+    path(r'raseac/chaibefourcoffee', raseac_chaibefourcoffee, name='level7a'),
 
     path('admin/', admin.site.urls),
 ]

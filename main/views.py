@@ -89,3 +89,46 @@ def draw_the_line_level5 (request):
 
 def draw_the_line_800x600 (request):
     return redirect("../../../anagram/lvl6")
+
+# Level 6
+def anagram_lvl6(request):
+    context = {
+        'level' : 6,
+        'img_flag' : True,
+        'txt_flag' : False,
+        'image' : 'images/level/level 6.png',
+        'text': '',
+    }
+    return render(request, "round.html" , context)
+
+def anagram_thetitanicdisaster (request):
+    return redirect("../../listen/to/the/sounds")
+
+
+# Level 7
+def listen_to_the_sounds (request):
+    context = {
+        'level' : 7,
+        'img_flag' : True,
+        'txt_flag' : True,
+        'image' : 'images/level/level 7.png',
+        'text': '<!-- https://drive.google.com/open?id=15bNP_I0Jj_8qsVnqlnB4tIspRogrqNiC --!>',
+    }
+    return render(request, "round.html" , context)
+
+def listen_to_the_ekac (request):
+    return redirect("../../../raseac/reputation")    
+
+# Level 8
+def raseac_reputation(request):
+    context = {
+        'level' : 8,
+        'img_flag' : True,
+        'txt_flag' : True,
+        'image' : 'images/level/level 8.png',
+        'text': 'Ndj pgt gtpaan p idjvw lpggxdg X jcstgthixbpits ndj bn ugxtcs Sdci gthi nti iwt ydjgctn xh cdi dktg Gteaprt gtejipixdc lxiw rwpxqtudjgrduutt udg iwt ctmi rwpaatcvt',
+    }
+    return render(request, "round.html" , context)
+
+def raseac_chaibefourcoffee (request):
+    return redirect("")    
