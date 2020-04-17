@@ -41,7 +41,7 @@
       </div>
 		</header>
 
-    <div>
+     <div>
 		 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
       
@@ -51,154 +51,83 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a href=""></a></li>
-            <li class="nav-item"><a href="l" ></a></li>
-            <li class="nav-item"><a href=""></a></li>
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="rules.html" class="nav-link">Rules</a></li>
+            <li class="nav-item"><a href="{% url 'home' %}" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="{% url 'about' %}" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="{% url 'rules' %}" class="nav-link">Rules</a></li>
           </ul>
         </div>
       </div>
     </nav></div>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({% static "images/bg_3.png" %});" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end">
           <div class="col-md-9 ftco-animate pb-5">
-          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Rules<i class="ion-ios-arrow-forward"></i></span></p>
+          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="{% url 'home' %}">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Rules<i class="ion-ios-arrow-forward"></i></span></p>
             <h1 class="mb-0 bread">RULES</h1>
           </div>
         </div>
       </div>
     </section>
+    <br><br>
    	
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
-		  <div class="container-fluid px-md-0">
-        <div class="row no-gutters">
-          <div class="col-md-4 ftco-animate">
-            <div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-            	<a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Building</span>
-	              	<h2><a href="work-single.html">College Health Profession</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="work img d-flex align-items-end" style="background-image: url(images/work-2.jpg);">
-            	<a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Building</span>
-	              	<h2><a href="work-single.html">College Health Profession</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-            	<a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Building</span>
-	              	<h2><a href="work-single.html">College Health Profession</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
+    <div class="container">
 
-          <div class="col-md-4 ftco-animate">
-            <div class="work img d-flex align-items-end" style="background-image: url(images/work-2.jpg);">
-            	<a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Building</span>
-	              	<h2><a href="work-single.html">College Health Profession</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-            	<a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Building</span>
-	              	<h2><a href="work-single.html">College Health Profession</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="work img d-flex align-items-end" style="background-image: url(images/work-2.jpg);">
-            	<a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span><font color="black">Building</font></span>
-	              	<h2><font color="black">College Health Profession</font></a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-md-4 ftco-animate">
-            <div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-            	<a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Building</span>
-	              	<h2><a href="work-single.html">College Health Profession</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="work img d-flex align-items-end" style="background-image: url(images/work-2.jpg);">
-            	<a href="images/work-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Building</span>
-	              	<h2><a href="work-single.html">College Health Profession</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-            	<a href="images/work-9.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Building</span>
-	              	<h2><a href="work-single.html">College Health Profession</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-		</section>
+
+
+    	<p><i>Indus Enigma is a 24 hr Treasure hunt cum Hackathon. 
+Solve all the levels within the stipulated time limit. 
+Be the first and take home the prize.</i></p>
+
+<br><br>
+<p>
+<center>
+<font face="Algerian" size="5"><b>How to play.</b></font></p></center>
+<ul type="button">
+	
+<li>Start the game by entering the first level via the link.</li>
+
+<li>You will be presented with a clue or puzzle which will lead you to the next level.</li>
+
+<li>There can be multiple clues and hidden clues within the site.</li>
+
+<li>Find the solution and follow the instructions given (if any)</li>
+
+or <br> 
+
+  Change the last part of the url with the solution, if there are no instructions
+
+<li>Try all possible answers in the url. There is no Capital letters or spacing in the answers.</li>
+
+<li><b>Eg: if your answer is “Tomato Potato” Enter your answer as tomatopotato at the end of the url</b></li>
+
+<li>Url is located at the address bar.</li>
+</ul>
+
+<ul type="box">
+<h5><b><u>Please note:</u></b></h5>
+
+<li>The game is recommended to be <b> played on a PC or Laptop with good internet connection. Mobile users may find difficulties in certain levels so try avoiding mobile phones.</b></li>
+
+<li>The game is meant to be played by a single player no teams are allowed.</li>
+
+<li>Please avoid sharing answers and posting spoilers on the internet.</li>
+
+<li>The first person to complete all the challenges within the stipulated time will be deemed the winner</li>
+
+<li>We are not responsible for the speed of internet connection or any other liabilities that can be caused by playing the game.</li>
+
+<li>Organizers reserve the right to disqualify any contestant for malpractice, if found</li>
+
+<li>In case of any dispute the decision of the organizers will be final</li></ul><br><br>
+<center>
+<i>Happy playing, may the best win.</i></center>
+<br> <br>
+    	
+    </div>
 
      <footer class="footer">
 			<div class="container-fluid px-lg-5">
@@ -218,7 +147,7 @@
 								<div class="row justify-content-center">
 									<div class="col-md-12 col-lg-10">
 										<div class="row">
-											<div class="col-md-4 mb-md-0 mb-4">
+											<div class="">
 												<h2 class="footer-heading">For Queries</h2>
 												<ul class="list-unstyled">
 						              <li>Midhun : +91 9895951250</li>
@@ -257,6 +186,7 @@
 		</footer>
     
   
+
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
