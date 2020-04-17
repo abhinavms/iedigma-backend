@@ -16,7 +16,7 @@ def playwithme_level1(request):
         'level' : 1,
         'img_flag' : True,
         'txt_flag' : False,
-        'image' : 'images/level/level 1.png',
+        'image' : 'images/level/zdfsere.png',
         'text': 'This is a test.',
     }
     return render(request, "round.html" , context)
@@ -30,7 +30,7 @@ def empty_level2 (request):
         'level' : 2,
         'img_flag' : True,
         'txt_flag' : False,
-        'image' : 'images/level/level 2.png',
+        'image' : 'images/level/ascsaom.png',
         'text': 'This is a test.',
         }
         return render(request, "round.html" , context)
@@ -44,7 +44,7 @@ def googleit_lvl3 (request):
         'level' : 3,
         'img_flag' : True,
         'txt_flag' : False,
-        'image' : 'images/level/level 3.png',
+        'image' : 'images/level/asdasd.png',
         'text': 'This is a test.',
     }
     return render(request, "round.html" , context)
@@ -54,7 +54,7 @@ def googleit_mandymoore (request):
         'level' : 3,
         'img_flag' : False,
         'txt_flag' : True,
-        'image' : 'images/level/level 3.png',
+        'image' : 'images/level/asdasd.png',
         'text': 'Not exactly ;P',
     }
     return render(request, "round.html" , context)
@@ -68,7 +68,7 @@ def z2o_onlyhope_level4 (request):
         'level' : 4,
         'img_flag' : True,
         'txt_flag' : True,
-        'image' : 'images/level/level 4.jpg',
+        'image' : 'images/level/zeoonasd.jpg',
         'text': '10111100100100001001000110011000100011011001111010001011100010101001001110011110100010111001011010010000100100011000110011010011110111111010011010010000100010101101111110010111100111101000100110011010110111111001001010011110100110111001101011011111100010111001011110010110100011001101111110011001100111101000110111010001110111111011011011011111100101111001000010001111100110101101111110000110100100001000101011011111100110111001011010011011100100011000101111011111100111001001000010010001100010011001101010001101100010111101111110010110100010111101111110010010100111101001000110001010100111101001001110010011100001101101001111011111100010111001011110011110100010111000110011011111100010001001011110011110100010111101111110011100100100001001001010001111100010101000101110011010100011011000110011011111100111101000110110011010110111111001100110010000100011011101000111011111101111001001011110011110100100011001100010011010110111111001000010010001100100111000011010010111100100001000111110011010110111111000101110010000110111111101111110011100100100001001000110011000100100001101111110010110100100011101111110001011100101111001101011011111100010101000110110010011110111111000101110010000110111111000111110001101100100001001110010011010100110101001101111011111100010111001000011011111100010111001011110011010110111111001000110011010100001111000101111011111100011011001000010001010100100011001101111010001',
     }
     return render(request, "round.html" , context)
@@ -82,7 +82,7 @@ def draw_the_line_level5 (request):
         'level' : 5,
         'img_flag' : True,
         'txt_flag' : True,
-        'image' : 'images/level/level 5.png',
+        'image' : 'images/level/vsdfef.png',
         'text': '<!-- Can you see it? -->',
     }
     return render(request, "round.html" , context)
@@ -96,7 +96,7 @@ def anagram_lvl6(request):
         'level' : 6,
         'img_flag' : True,
         'txt_flag' : False,
-        'image' : 'images/level/level 6.png',
+        'image' : 'images/level/pkaspd.png',
         'text': '',
     }
     return render(request, "round.html" , context)
@@ -111,7 +111,7 @@ def listen_to_the_sounds (request):
         'level' : 7,
         'img_flag' : True,
         'txt_flag' : True,
-        'image' : 'images/level/level 7.png',
+        'image' : 'images/level/yooyoyo.png',
         'text': '<!-- https://drive.google.com/open?id=15bNP_I0Jj_8qsVnqlnB4tIspRogrqNiC --!>',
     }
     return render(request, "round.html" , context)
@@ -125,7 +125,7 @@ def raseac_reputation(request):
         'level' : 8,
         'img_flag' : True,
         'txt_flag' : True,
-        'image' : 'images/level/level 8.png',
+        'image' : 'images/level/mocpsa.png',
         'text': 'Ndj pgt gtpaan p idjvw lpggxdg X jcstgthixbpits ndj bn ugxtcs Sdci gthi nti iwt ydjgctn xh cdi dktg Gteaprt gtejipixdc lxiw rwpxqtudjgrduutt udg iwt ctmi rwpaatcvt',
     }
     return render(request, "round.html" , context)
@@ -139,7 +139,7 @@ def that_was_awesome (request):
         'level' : 9,
         'img_flag' : True,
         'txt_flag' : False,
-        'image' : 'images/level/levl 9.png',
+        'image' : 'images/level/zxcjsdok.png',
         'text': '',
     }
     return render(request, "round.html" , context)
@@ -153,7 +153,7 @@ def welcometo_thepast (request):
         'level' : 10,
         'img_flag' : False,
         'txt_flag' : True,
-        'image' : 'images/level/levl 9.png',
+        'image' : '',
         'text': '☟︎⚐︎⬥︎ 👍︎⚐︎💣︎☜︎ ✡︎⚐︎◆︎ ✌︎☼︎☜︎ 💧︎❄︎✋︎☹︎☹︎ ☟︎☜︎☼︎☜︎✍︎ ✋︎ ❄︎☟︎⚐︎◆︎☝︎☟︎❄︎ ✡︎⚐︎◆︎ ☹︎☜︎☞︎❄︎ ☹︎⚐︎☠︎☝︎ 👌︎☜︎☞︎⚐︎☼︎☜︎📬︎ <br> 💣︎◆︎💧︎❄︎ 💧︎✌︎✡︎📪︎ ✡︎⚐︎◆︎ ✌︎☼︎☜︎ ☼︎☜︎✌︎☹︎☹︎✡︎ 💧︎💣︎✌︎☼︎❄︎📬︎ <br> ❄︎☜︎☹︎☹︎ 💣︎♏︎ ⬥︎☟︎□︎ ✋︎ ✌︎💣︎ ✌︎☠︎👎︎ ✋︎ ⬥︎✋︎☹︎☹︎ ☹︎☜︎❄︎ ✡︎□︎◆︎ ❄︎☟︎❒︎□︎◆︎☝︎♒︎ <br> ✋︎ ☟︎♋︎❖︎♏︎ 💧︎◻︎♋︎♍︎♏︎ ⍓︎□︎◆︎ ♍︎♋︎■︎ ☜︎■︎⧫︎♏︎❒︎📪︎♌︎◆︎⧫︎ ✡︎□︎◆︎ ♍︎♋︎■︎■︎□︎⧫︎ ●︎♏︎♋︎❖︎♏︎📪︎♋︎⬧︎ ❍︎⍓︎ 😐︎♏︎⍓︎⬧︎ ♎︎□︎■︎⧫︎ □︎◻︎♏︎■︎ ●︎□︎♍︎😐︎⬧︎',
     }
     return render(request, "round.html" , context)
@@ -205,7 +205,7 @@ def lvl13_stop_singing (request):
         'level' : 13,
         'img_flag' : True,
         'txt_flag' : True,
-        'image' : 'images/level/levl 13.png',
+        'image' : 'images/level/asdompam.png',
         'text': "<!-- https://drive.google.com/open?id=1AnoqxLzfm99KegzFepinxES6tXKfGLFy -->",
     }
     return render(request, "round.html" , context)
@@ -219,7 +219,7 @@ def lvl14_now_what (request):
         'level' : 14,
         'img_flag' : True,
         'txt_flag' : True,
-        'image' : 'images/level/levl 14.png',
+        'image' : 'images/level/asdcasndoo.png',
         'text': "<!-- 3VQ8+R6 -->",
     }
     return render(request, "round.html" , context)
@@ -229,7 +229,7 @@ def lvl14_now_newyorkminute (request):
         'level' : 14,
         'img_flag' : False,
         'txt_flag' : True,
-        'image' : 'images/level/levl 14.png',
+        'image' : '',
         'text': "That's too cliche",
     }
     return render(request, "round.html" , context)
@@ -243,7 +243,7 @@ def lvl15_moredots_anddashes (request):
         'level' : 15,
         'img_flag' : True,
         'txt_flag' : False,
-        'image' : 'images/level/levl 15.png',
+        'image' : 'images/level/asdoaksdo.png',
         'text': "That's too cliche",
     }
     return render(request, "round.html" , context)
@@ -257,7 +257,7 @@ def success_but_onefinaldetail (request):
         'level' : "Infinity",
         'img_flag' : False,
         'txt_flag' : True,
-        'image' : 'images/level/levl 15.png',
+        'image' : '',
         'text': "Congrats warrior!! <br><br> You have fought against all odds and have reached to the final stage of this long voyage. Are you the first to reach the spot? <br> Find out by texting the number you decoded in the last puzzle in the following manner: <br> “Hello! I am _____________(your nick name). Betty bought a bit of butter. The butter wasn’t bitter. So she sells sea shells on the beach” <br> <br> Thank you for playing. Hope you had a great time cracking as we did making these puzzles!!",
     }
     return render(request, "round.html" , context)
