@@ -60,40 +60,25 @@
     </nav></div>
 
     <div class="container">
-<br><br>
-    <h1>Level {{ level }}</h1>
-    <br><br>
+    <h1 style = "margin-top : 6%; margin-bottom : 6%;">Level {{ level }}</h1>
 
-    <p>
-      <p><h5>
+    <h5>
           {% if img_flag %}
             {% autoescape off %}
-              <img src="{% static image %}" />
+              <img src="{% static image %}" style = "margin-bottom : 6%;" />
             {% endautoescape %} 
           {% endif %}
-          <br> <br>
+
           {% if txt_flag %}
-           <p style = "width: 100%; word-wrap: break-word;">
+           <p style = "width: 100%; word-wrap: break-word; margin-bottom : 6%;">
               {{ text|safe }}
           </p> 
-              
           {% endif %}
 
-        </h5> </p>
-
-</div>
-    </p>
-	      	
-
-    <div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br></div>
-  
+        </h5>
+    </div>
     
+	      
     <footer class="footer">
 			<div class="container-fluid px-lg-5">
 				<div class="row">
