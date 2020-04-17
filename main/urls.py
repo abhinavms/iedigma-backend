@@ -28,11 +28,19 @@ from .views import draw_the_line_level5, draw_the_line_800x600
 from .views import anagram_lvl6, anagram_thetitanicdisaster
 from .views import listen_to_the_sounds, listen_to_the_ekac
 from .views import raseac_chaibefourcoffee, raseac_reputation
+from .views import that_was_awesome, that_was_unexpected
+from .views import welcometo_keyboard, welcometo_thepast
+from .views import sdrawkcab_lvl11_kfc, sdrawkcab_lvl11_marathon, sdrawkcab_lvl11_nohtaram
+from .views import take_a_breakn_dance, take_a_breakn_stop
+from .views import lvl13_stop_singing, lvl13_stop_thatwasntthathard
+from .views import lvl14_now_what, lvl14_now_mumbaiminute, lvl14_now_newyorkminute
+from .views import lvl15_moredots_anddashes, lvl15_moredots_8547393808
+from .views import success_but_onefinaldetail
 
 urlpatterns = [
     path(r'', index_page, name='home'),
     path(r'about', about_page, name='about'),
-    path(r'rules', rules_page, name='rule'),
+    path(r'rules', rules_page, name='rules'),
 
     path(r'playwithme/level1', playwithme_level1, name='level1'),
     path(r'playwithme/level2', playwithme_level2, name='level1a'),
@@ -56,8 +64,33 @@ urlpatterns = [
     path(r'listen/to/the/sounds', listen_to_the_sounds, name='level7'),
     path(r'listen/to/the/ekac', listen_to_the_ekac, name='level7a'),
 
-    path(r'raseac/reputation', raseac_reputation, name='level7'),
-    path(r'raseac/chaibefourcoffee', raseac_chaibefourcoffee, name='level7a'),
+    path(r'raseac/reputation', raseac_reputation, name='level8'),
+    path(r'raseac/chaibefourcoffee', raseac_chaibefourcoffee, name='level8a'),
+
+    path(r'that/was/awesome', that_was_awesome, name='level9'),
+    path(r'that/was/unexpected', that_was_unexpected, name='level9a'),
+
+    path(r'welcometo/thepast', welcometo_thepast, name='level10'),
+    path(r'welcometo/keyboard', welcometo_keyboard, name='level10a'),
+
+    path(r'sdrawkcab/lvl11/kfc', sdrawkcab_lvl11_kfc, name='level11'),
+    path(r'sdrawkcab/lvl11/marathon', sdrawkcab_lvl11_marathon, name='level11a'),
+    path(r'sdrawkcab/lvl11/nohtaram', sdrawkcab_lvl11_nohtaram, name='level11b'),
+
+    path(r'take/a/breakn/dance', take_a_breakn_dance, name='level12'),
+    path(r'take/a/breakn/stop', take_a_breakn_stop, name='level12a'),
+
+    path(r'lvl13/stop/singing', lvl13_stop_singing, name='level13'),
+    path(r'lvl13/stop/thatwasntthathard', lvl13_stop_thatwasntthathard, name='level13a'),
+
+    path(r'lvl14/now/what', lvl14_now_what, name='level14'),
+    path(r'lvl14/now/newyorkminute', lvl14_now_newyorkminute, name='level14a'),
+    path(r'lvl14/now/mumbaiminute', lvl14_now_mumbaiminute, name='level14b'),
+
+    path(r'lvl15/moredots/anddashes', lvl15_moredots_anddashes, name='level15'),
+    path(r'lvl15/moredots/8547393808', lvl15_moredots_8547393808, name='level15a'),
+
+    path(r'success/but/onefinaldetail', success_but_onefinaldetail, name='level15a'),
 
     path('admin/', admin.site.urls),
 ]

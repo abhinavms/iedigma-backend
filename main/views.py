@@ -131,4 +131,133 @@ def raseac_reputation(request):
     return render(request, "round.html" , context)
 
 def raseac_chaibefourcoffee (request):
-    return redirect("")    
+    return redirect("../../that/was/awesome")    
+
+# Level 9
+def that_was_awesome (request):
+    context = {
+        'level' : 9,
+        'img_flag' : True,
+        'txt_flag' : False,
+        'image' : 'images/level/levl 9.png',
+        'text': '',
+    }
+    return render(request, "round.html" , context)
+
+def that_was_unexpected (request):
+    return redirect("../../../welcometo/thepast")
+
+# Level 10
+def welcometo_thepast (request):
+    context = {
+        'level' : 10,
+        'img_flag' : False,
+        'txt_flag' : True,
+        'image' : 'images/level/levl 9.png',
+        'text': '☟︎⚐︎⬥︎ 👍︎⚐︎💣︎☜︎ ✡︎⚐︎◆︎ ✌︎☼︎☜︎ 💧︎❄︎✋︎☹︎☹︎ ☟︎☜︎☼︎☜︎✍︎ ✋︎ ❄︎☟︎⚐︎◆︎☝︎☟︎❄︎ ✡︎⚐︎◆︎ ☹︎☜︎☞︎❄︎ ☹︎⚐︎☠︎☝︎ 👌︎☜︎☞︎⚐︎☼︎☜︎📬︎ <br> 💣︎◆︎💧︎❄︎ 💧︎✌︎✡︎📪︎ ✡︎⚐︎◆︎ ✌︎☼︎☜︎ ☼︎☜︎✌︎☹︎☹︎✡︎ 💧︎💣︎✌︎☼︎❄︎📬︎ <br> ❄︎☜︎☹︎☹︎ 💣︎♏︎ ⬥︎☟︎□︎ ✋︎ ✌︎💣︎ ✌︎☠︎👎︎ ✋︎ ⬥︎✋︎☹︎☹︎ ☹︎☜︎❄︎ ✡︎□︎◆︎ ❄︎☟︎❒︎□︎◆︎☝︎♒︎ <br> ✋︎ ☟︎♋︎❖︎♏︎ 💧︎◻︎♋︎♍︎♏︎ ⍓︎□︎◆︎ ♍︎♋︎■︎ ☜︎■︎⧫︎♏︎❒︎📪︎♌︎◆︎⧫︎ ✡︎□︎◆︎ ♍︎♋︎■︎■︎□︎⧫︎ ●︎♏︎♋︎❖︎♏︎📪︎♋︎⬧︎ ❍︎⍓︎ 😐︎♏︎⍓︎⬧︎ ♎︎□︎■︎⧫︎ □︎◻︎♏︎■︎ ●︎□︎♍︎😐︎⬧︎',
+    }
+    return render(request, "round.html" , context)
+
+def welcometo_keyboard (request):
+    return redirect("../../sdrawkcab/lvl11/kfc")
+
+# Level 11
+def sdrawkcab_lvl11_kfc (request):
+    context = {
+        'level' : 11,
+        'img_flag' : True,
+        'txt_flag' : True,
+        'image' : 'images/level/candy.jpg',
+        'text': "Hey honey! Do you think KFC's Still open?",
+    }
+    return render(request, "round.html" , context)
+
+def sdrawkcab_lvl11_marathon (request):
+    context = {
+        'level' : 11,
+        'img_flag' : False,
+        'txt_flag' : True,
+        'image' : 'images/level/candy.jpg',
+        'text': "Try running backwards",
+    }
+    return render(request, "round.html" , context)
+
+def sdrawkcab_lvl11_nohtaram (request):
+    return redirect("../../../take/a/breakn/dance")
+
+# Level 12
+def take_a_breakn_dance (request):
+    context = {
+        'level' : 12,
+        'img_flag' : True,
+        'txt_flag' : True,
+        'image' : 'images/level/levl 12.png',
+        'text': "<!-- https://www.youtube.com/watch?v=1iQl46-zIcM -->",
+    }
+    return render(request, "round.html" , context)
+
+def take_a_breakn_stop (request):
+    return redirect("../../../../lvl13/stop/singing")
+
+# Level 13
+def lvl13_stop_singing (request):
+    context = {
+        'level' : 13,
+        'img_flag' : True,
+        'txt_flag' : True,
+        'image' : 'images/level/levl 13.png',
+        'text': "<!-- https://drive.google.com/open?id=1AnoqxLzfm99KegzFepinxES6tXKfGLFy -->",
+    }
+    return render(request, "round.html" , context)
+
+def lvl13_stop_thatwasntthathard (request):
+    return redirect("../../../lvl14/now/what")
+
+# Level 14
+def lvl14_now_what (request):
+    context = {
+        'level' : 14,
+        'img_flag' : True,
+        'txt_flag' : True,
+        'image' : 'images/level/levl 14.png',
+        'text': "<!-- 3VQ8+R6 -->",
+    }
+    return render(request, "round.html" , context)
+
+def lvl14_now_newyorkminute (request):
+    context = {
+        'level' : 14,
+        'img_flag' : False,
+        'txt_flag' : True,
+        'image' : 'images/level/levl 14.png',
+        'text': "That's too cliche",
+    }
+    return render(request, "round.html" , context)
+
+def lvl14_now_mumbaiminute (request):
+    return redirect("../../../lvl15/moredots/anddashes")
+
+# Level 15
+def lvl15_moredots_anddashes (request):
+    context = {
+        'level' : 15,
+        'img_flag' : True,
+        'txt_flag' : False,
+        'image' : 'images/level/levl 15.png',
+        'text': "That's too cliche",
+    }
+    return render(request, "round.html" , context)
+
+def lvl15_moredots_8547393808 (request):
+    return redirect("../../../success/but/onefinaldetail")
+
+# Sucess
+def success_but_onefinaldetail (request):
+    context = {
+        'level' : "Infinity",
+        'img_flag' : False,
+        'txt_flag' : True,
+        'image' : 'images/level/levl 15.png',
+        'text': "Congrats warrior!! <br><br> You have fought against all odds and have reached to the final stage of this long voyage. Are you the first to reach the spot? <br> Find out by texting the number you decoded in the last puzzle in the following manner: <br> “Hello! I am _____________(your nick name). Betty bought a bit of butter. The butter wasn’t bitter. So she sells sea shells on the beach” <br> <br> Thank you for playing. Hope you had a great time cracking as we did making these puzzles!!",
+    }
+    return render(request, "round.html" , context)
