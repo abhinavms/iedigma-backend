@@ -206,7 +206,7 @@ def lvl13_stop_singing (request):
         'img_flag' : True,
         'txt_flag' : True,
         'image' : 'images/level/asdompam.png',
-        'text': "<!-- https://drive.google.com/open?id=1AnoqxLzfm99KegzFepinxES6tXKfGLFy -->",
+        'text': "<!-- http://ieeesctsb.live/static/images/level/zdfsere.png -->",
     }
     return render(request, "round.html" , context)
 
